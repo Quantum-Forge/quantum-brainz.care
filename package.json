@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "uglify-js": "^3.19.3"
+  },
+  "scripts": {
+       "minify": "uglifyjs assets/js/main.js -o assets/js/main.min.js && cleancss -o assets/css/style.min.css assets/css/style.css"
+     }
+}
