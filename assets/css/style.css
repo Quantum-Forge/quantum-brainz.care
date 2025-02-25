@@ -25799,3 +25799,20 @@ body:not(.elementor-page) #page-content .content img {
     -ms-scroll-snap-type: y mandatory;
     scroll-snap-type: y mandatory;
 }
+
+#fasilitas .facility-item {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #048081;
+}
+
+#fasilitas .facility-item i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #048081;
+}
