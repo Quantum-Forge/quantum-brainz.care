@@ -14347,8 +14347,7 @@ function sendToWhatsApp() {
     const message = `Nama: ${name}%0A
     Telepon: ${phone}%0A
     Email: ${email}%0A
-    -----------####----------%0A
-    ${question}`;
+    ---------------------%0A${question}`;
 
     const whatsappUrl = `https://wa.me/6281122224400?text=${message}`;
 
