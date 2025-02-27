@@ -14338,18 +14338,19 @@ var media_xxl = 1700,
     })(jQuery);
 
 
-    function sendToWhatsApp() {
-        const name = document.getElementById('cf-1-name').value;
-        const phone = document.getElementById('cf-1-phone').value;
-        const email = document.getElementById('cf-1-email').value;
-        const question = document.getElementById('cf-1-question').value;
+function sendToWhatsApp() {
+    const name = document.getElementById('cf-1-name').value;
+    const phone = document.getElementById('cf-1-phone').value;
+    const email = document.getElementById('cf-1-email').value;
+    const question = document.getElementById('cf-1-question').value;
 
-        const message = `Nama: ${name}%0A
-        Telepon: ${phone}%0A
-        Email: ${email}%0A
-        Pertanyaan: ${question}`;
+    const message = `Nama: ${name}%0A
+    Telepon: ${phone}%0A
+    Email: ${email}%0A
+    -----------####----------%0A
+    ${question}`;
 
-        const whatsappUrl = `https://wa.me/6281190008833?text=${message}`;
+    const whatsappUrl = `https://wa.me/6281122224400?text=${message}`;
 
-        window.open(whatsappUrl, '_blank');
-    }
+    window.open(whatsappUrl, '_blank');
+}
