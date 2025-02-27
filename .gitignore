@@ -33,10 +33,6 @@ bower_components/
 dist/
 build/
 
-# Minified files
-assets/css/style.css
-assets/js/main.js
-
 # Optional npm cache directory
 .npm
 
