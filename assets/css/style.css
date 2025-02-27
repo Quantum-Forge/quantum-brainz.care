@@ -1,6 +1,9 @@
 :root {
     --primary-color: #048081;
     --secondary-color: #F4901E;
+    --dark-color:#060606;
+    --white-nav: #fff;
+    --transparent-nav: transparent;
   }
 .fa,
 .fab,
@@ -20401,7 +20404,7 @@ button.adv-swiper-pagination-bullet {
     }
 }
 .header-absolute-true header.site-header {
-    background-color: transparent;
+    background-color: var(--white-nav);
     position: absolute;
     width: 100%;
     z-index: 1040;
@@ -20480,10 +20483,10 @@ button.adv-swiper-pagination-bullet {
     border-color: #fff;
 }
 .header-absolute-true:not(.header-fixed) header#header nav.menu-primary ul.nav li.nav-item > a {
-    color: inherit;
+    color: var(--dark-color);
 }
 .header-absolute-true:not(.header-fixed) header#header nav.menu-primary ul.nav li.nav-item > a:before {
-    background-color: #fff;
+    background-color: var(--dark-color);
 }
 .header-absolute-true:not(.header-fixed) header#header nav.languages ul.nav li.lang-item.active a,
 .header-absolute-true:not(.header-fixed) header#header nav.languages ul.nav li.lang-item.current-lang a,
@@ -20500,7 +20503,7 @@ button.adv-swiper-pagination-bullet {
 .header-absolute-true:not(.header-fixed) header#header nav.menu-primary ul.nav li.nav-item > .dropdown-custom-icon .dropdown-icon,
 .header-absolute-true:not(.header-fixed) header#header nav.menu-primary ul.nav li.nav-item > .dropdown-custom-icon:hover,
 .header-absolute-true:not(.header-fixed) header#header nav.menu-primary ul.nav li.nav-item > .dropdown-custom-icon:hover .dropdown-icon {
-    color: inherit;
+    color: var(--dark-color);
 }
 .header-fixed-true.header-fixed header {
     position: fixed;
