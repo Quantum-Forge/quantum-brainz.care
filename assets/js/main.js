@@ -14353,3 +14353,100 @@ function sendToWhatsApp() {
 
     window.open(whatsappUrl, '_blank');
 }
+
+        function toggleServices(event) {
+            event.preventDefault();
+            const hiddenItems = document.querySelectorAll('.hidden-service');
+            const button = event.target;
+            
+            hiddenItems.forEach(item => {
+                if (item.style.display === 'none' || !item.style.display) {
+                    item.style.display = 'block';
+                    button.textContent = 'Tampilkan Lebih Sedikit';
+                } else {
+                    item.style.display = 'none';
+                    button.textContent = 'Lihat Semua Layanan Gangguan Tidur';
+                }
+            });
+        }
+
+        function toggleCognitiveServices(event) {
+            event.preventDefault();
+            const hiddenItems = document.querySelectorAll('.hidden-service-cognitive');
+            const button = event.target;
+            
+            hiddenItems.forEach(item => {
+                if (item.style.display === 'none' || !item.style.display) {
+                    item.style.display = 'block';
+                    button.textContent = 'Tampilkan Lebih Sedikit';
+                } else {
+                    item.style.display = 'none';
+                    button.textContent = 'Lihat Semua Layanan Kognitif';
+                }
+            });
+        }
+
+        function togglePainmuscularServices(event) {
+            event.preventDefault();
+            const hiddenItems = document.querySelectorAll('.hidden-service-painmuscular');
+            const button = event.target;
+            
+            hiddenItems.forEach(item => {
+                if (item.style.display === 'none' || !item.style.display) {
+                    item.style.display = 'block';
+                    button.textContent = 'Tampilkan Lebih Sedikit';
+                } else {
+                    item.style.display = 'none';
+                    button.textContent = 'Lihat Semua Layanan Painmuscular';
+                }
+            });
+        }
+
+        function toggleEEGServices(event) {
+            event.preventDefault();
+            const hiddenItems = document.querySelectorAll('.hidden-service-eeg');
+            const button = event.target;
+            
+            hiddenItems.forEach(item => {
+                if (item.style.display === 'none' || !item.style.display) {
+                    item.style.display = 'block';
+                    button.textContent = 'Tampilkan Lebih Sedikit';
+                } else {
+                    item.style.display = 'none';
+                    button.textContent = 'Lihat Semua Layanan EEG';
+                }
+            });
+        }
+
+        function toggleTherapyServices(event) {
+            event.preventDefault();
+            const hiddenItems = document.querySelectorAll('.hidden-service-therapy');
+            const button = event.target;
+            
+            hiddenItems.forEach(item => {
+                if (item.style.display === 'none' || !item.style.display) {
+                    item.style.display = 'block';
+                    button.textContent = 'Tampilkan Lebih Sedikit';
+                } else {
+                    item.style.display = 'none';
+                    button.textContent = 'Lihat Semua Layanan Terapi & Skrinning';
+                }
+            });
+        }
+
+        function toggleSchedule(event, button) {
+            event.preventDefault();
+            const hiddenSchedules = button.parentElement.querySelectorAll('.hidden-schedule');
+            
+            hiddenSchedules.forEach(schedule => {
+                if (schedule.classList.contains('d-none')) {
+                    schedule.classList.remove('d-none');
+                    schedule.classList.add('d-flex', 'justify-content-between', 'flex-wrap');
+                    button.textContent = 'Tampilkan Lebih Sedikit';
+                } else {
+                    schedule.classList.remove('d-flex', 'justify-content-between', 'flex-wrap');
+                    schedule.classList.add('d-none');
+                    button.textContent = 'Lihat Jadwal Lengkap';
+                }
+            });
+        }

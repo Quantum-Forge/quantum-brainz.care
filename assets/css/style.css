@@ -23936,7 +23936,8 @@ body:not(.elementor-page) #page-content .content img {
 [class*="-password-form"] .accordion-services .card .card-header input.collapsed[type="submit"] [class*="fa-"] {
     transform: translateY(-50%) rotate(0);
 }
-.accordion-services .card .card-body .card-price {
+.accordion-services .card .card-body .card-price,
+.blog-shortcode .card .card-body .card-price {
     font-family: Poppins-Bold, sans-serif;
     font-weight: 700;
     font-size: 0.895rem;
@@ -25818,4 +25819,56 @@ body:not(.elementor-page) #page-content .content img {
     font-size: 24px;
     margin-right: 10px;
     color: #048081;
+}
+
+#page-title {
+    background-image: url('../img/demo/01_img.jpg');
+}
+
+#fun-facts {
+    background-image: url('../img/demo/08_img.png');
+}
+
+#testimonials {
+    background-image: url('../img/demo/13_img.png');
+}
+
+.hidden-service {
+    display: none;
+}
+
+.hidden-service-cognitive {
+    display: none;
+}
+
+.hidden-service-painmuscular {
+    display: none;
+}
+
+.hidden-service-eeg {
+    display: none;
+}
+
+.hidden-service-therapy {
+    display: none;
+}
+
+.read-more-schedule {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.read-more-schedule:hover {
+    text-decoration: underline;
+}
+
+.initial-schedule {
+    margin-bottom: 5px;
+}
+
+.hidden-schedule {
+    margin-bottom: 5px;
 }
