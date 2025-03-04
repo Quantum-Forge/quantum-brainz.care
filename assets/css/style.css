@@ -20142,8 +20142,8 @@ button.adv-swiper-pagination-bullet {
     color: #060606;
 }
 .site-header .header-content {
-    padding-top: 2.263rem;
-    padding-bottom: 2.263rem;
+    padding-top: 1.211rem; /* 2.263rem */
+    padding-bottom: 1.211rem; /* 2.263rem */
     border-bottom: 1px solid #dadada;
 }
 .site-header .header-content .header-left {
