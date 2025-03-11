@@ -23937,7 +23937,8 @@ body:not(.elementor-page) #page-content .content img {
     transform: translateY(-50%) rotate(0);
 }
 .accordion-services .card .card-body .card-price,
-.blog-shortcode .card .card-body .card-price {
+.blog-shortcode .card .card-body .card-price,
+.team-member .team-member-content .team-member-description .card-price {
     font-family: Poppins-Bold, sans-serif;
     font-weight: 700;
     font-size: 0.895rem;
